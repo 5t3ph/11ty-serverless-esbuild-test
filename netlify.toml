@@ -1,0 +1,17 @@
+[build]
+base = ""
+publish = "_site"
+command = "npm run build"
+
+[dev]
+command = "npm start"
+
+[functions]
+node_bundler = "esbuild"
+
+[[redirects]]
+from = "/possum/"
+to = "/.netlify/functions/possum"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "possum"

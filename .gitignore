@@ -1,0 +1,6 @@
+node_modules
+_site
+netlify/functions/possum/**
+!netlify/functions/possum/index.js
+# Local Netlify folder
+.netlify
